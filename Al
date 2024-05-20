@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 1em 0;
+        }
+        section {
+            width: 80%;
+            background-color: white;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            margin: 0 0 1em 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+    
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle [Ton Nom] et je suis passionné par [ta passion ou ton domaine d'expertise]. Avec [nombre] années d'expérience dans [ton domaine], j'aime [activité ou passe-temps spécifique].</p>
+    </section>
+    
+    <section id="what-i-do">
+        <h2>Ce que je fais</h2>
+        <p>Actuellement, je travaille en tant que [ton poste] chez [nom de l'entreprise ou organisation]. Mes principales responsabilités incluent [description de ton travail ou de tes projets]. J'ai également travaillé sur des projets tels que [nom ou description de projets].</p>
+    </section>
+    
+    <section id="collaborations">
+        <h2>Ce que j'aimerais faire / Collaborations</h2>
+        <p>Je suis toujours à la recherche de nouvelles opportunités pour [décrire ce que tu cherches]. Si vous êtes intéressé par une collaboration ou un projet commun, n'hésitez pas à me contacter. J'aimerais particulièrement travailler sur [décrire le type de projet ou de collaboration].</p>
+    </section>
+    
+    <footer>
+        <p>© 2024 [Ton Nom]. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
